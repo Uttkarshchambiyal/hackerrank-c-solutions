@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------------[Question-30]--------------------------------------------------------------------------------------------
+
+
+Write a program to count the number of set bits in the first 4 bits (rightmost bits) of an integer n. Use bitwise operators to solve the problem.
+
+Input Format
+
+A single integer n
+Constraints
+
+-2^31 ≤ n ≤ 2^31
+Output Format
+
+Output the count of set bits in the first 4 bits of n.
+Sample Input 0
+
+29
+Sample Output 0
+
+3
+Sample Input 1
+
+15
+Sample Output 1
+
+4
+
+
+-------------------------------------------------------------------------------------[Answer-30]---------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int last4 = n & 15;  
+    int count = 0;
+
+   
+    if (last4 & 1)
+        count++;
+
+    last4 = last4 >> 1;
+
+   
+    if (last4 & 1)
+        count++;
+
+    last4 = last4 >> 1;
+
+
+    if (last4 & 1)
+        count++;
+
+    last4 = last4 >> 1;
+
+  
+    if (last4 & 1)
+        count++;
+
+    printf("%d", count);
+    return 0;
+}
