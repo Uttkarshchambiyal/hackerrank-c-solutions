@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+
+ int cond1,cond2,cond3,total,number;
+    scanf("%d",&number);
+    cond1 = (number>10 && number%2==0);
+    cond2 = (number>15 && number%3==0);
+    cond3= (number%7==0);
+    total = cond1+cond2+cond3;
+    if (number<=0){
+        printf("The verdict for the number %d is: INVALID",number);
+       
+    }
+    else if(total==3){
+           printf("The verdict for the number %d is: SUPERNATURAL",number);
+        
+    }
+    else if(total==2){
+         printf("The verdict for the number %d is: MIRACULOUS",number);
+     
+    }
+    else if(total==1){
+            printf("The verdict for the number %d is: MAGICAL",number);
+        
+    }
+    else {
+     printf("The verdict for the number %d is: NORMAL",number);
+    }
+    
+    return 0;
+}
