@@ -1,61 +1,84 @@
-# 🧠 HackerRank Problem Solving (C Language)
+<div align="center">
 
-This repository contains my solutions to **HackerRank coding problems**, solved **only using the C programming language**.
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,100:00EA64&height=200&section=header&text=%F0%9F%8F%86%20HackerRank%20Solutions&fontSize=40&fontColor=00EA64&fontAlignY=55&stroke=00EA64&strokeWidth=2" width="100%" />
 
-All problems are solved as part of my **problem-solving series**:
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/)
+[![Stars](https://img.shields.io/github/stars/Uttkarshchambiyal/hacker-rank-?style=for-the-badge&color=00EA64)]()
+[![Series](https://img.shields.io/badge/Series-Peacemakers%202025-111?style=for-the-badge&labelColor=00EA64&color=0a0a0a)]()
 
-## 🌟 Series Name
-### 🔥 Peacemakers 2025
+> *"Every problem has a solution. Every solution has a pattern."*
 
----
-
-## 📌 About This Repository
-
-- All solutions are written **only in C**
-- Codes are **self-written** and beginner-friendly
-- Focus on **logic building and core C concepts**
-- Problems are uploaded after solving them on **HackerRank**
+</div>
 
 ---
 
-## 🧩 Topics Covered
+## 📌 About
 
-- Basic input/output
-- Operators and expressions
-- Conditional statements
-- Loops
-- Functions
-- Arrays
-- Strings
-- Pointers (as applicable)
-- Basic problem-solving techniques
+This repo contains my **HackerRank problem solutions** written in **C**. All solutions are:
+
+- ✅ Self-written & beginner-friendly
+- ✅ Focused on logic building & core C concepts
+- ✅ Uploaded after solving on HackerRank
+- ✅ Part of the **Peacemakers 2025** series
 
 ---
 
-## 🎯 Purpose
+## 🎯 Topics Covered
 
-- Strengthen **C programming fundamentals**
-- Improve **problem-solving skills**
-- Prepare for **college exams, interviews, and coding tests**
-- Maintain consistency under the **Peacemakers 2025** series
-
----
-
-## 🚀 Platform
-
-- **HackerRank**
-
----
-
-## 🧑‍💻 Author
-
-**Uttkarsh Chambiyal**  
-B.Tech Student | C Programming Learner  
-Series: **Peacemakers 2025**
+| Category | Problems |
+|---|---|
+| 💻 **Basic I/O** | `printf`, `scanf`, data types |
+| ➕ **Operators** | Arithmetic, relational, logical |
+| 🔄 **Conditionals** | if/else, switch statements |
+| 🔁 **Loops** | for, while, do-while |
+| 📊 **Arrays** | 1D & 2D arrays, string operations |
+| 🧰 **Functions** | User-defined, recursion |
+| 🔢 **Pointers** | Basic pointer operations |
 
 ---
 
-## ⚠️ Note
+## 🛠️ Language
 
-These solutions are meant for **learning and practice purposes**.  
-There can be **multiple correct solutions** for the same problem.
+- **C** — All solutions written only in C
+- Compiler: `gcc`
+- Standard: C99/C11
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/Uttkarshchambiyal/hacker-rank-.git
+
+# Compile any solution
+gcc solution.c -o solution
+
+# Run it
+./solution
+```
+
+---
+
+## 📈 Progress
+
+- [x] Basic I/O problems
+- [x] Operators & expressions
+- [x] Conditionals & loops
+- [x] Arrays & strings
+- [ ] Functions & recursion
+- [ ] Pointers
+- [ ] Advanced data structures
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00EA64,100:0a0a0a&height=100&section=footer" width="100%" />
+
+**Built with 💪 by [Uttkarsh Chambiyal](https://github.com/Uttkarshchambiyal)**
+
+⭐ Star if this helps your HackerRank grind!
+
+</div>
